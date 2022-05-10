@@ -1,0 +1,20 @@
+server {
+    listen 80;
+    server_name 51.250.108
+    location /static/ {
+        root /var/html/;
+    }
+
+    # Указываем директорию с медиа: 
+    # если запрос направлен к внутреннему адресу /media/,
+    # nginx будет обращаться за файлами в свою директорию /var/html/media/
+    location /media/ {
+        root /var/html/;
+    }
+
+    # Все остальные запросы перенаправляем в Django-приложение,
+    # на порт 8000 контейнера web
+    location / {
+        proxy_pass http://web:8000;
+    }
+}
