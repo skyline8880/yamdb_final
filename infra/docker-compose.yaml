@@ -9,6 +9,7 @@ services:
   web:
     build: ../api_yamdb/
     restart: always
+    image: skyline8880/yamdb:latest
     volumes:
       - static_value:/app/static/ 
       - media_value:/app/media/
