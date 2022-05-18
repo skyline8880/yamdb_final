@@ -1,7 +1,7 @@
 # Проект API YaMDb :mag:
 
 ![api_yamdb](https://img.shields.io/pypi/djversions/djangorestframework)
-
+![yamdb_final](https://github.com/github/docs/actions/workflows/yamdb_workflow.yml/badge.svg)
 ___
 
 # REST API для сервиса YaMDb — базы отзывов на произведения (фильмов, картин музыки и других сущностей).
@@ -40,4 +40,3 @@ ___
 ___
 ## Исполнитель:
 **[Сайфуллои Холов](https://github.com/skyline8880)** 
-![example workflow](https://github.com/github/docs/actions/workflows/yamdb_workflow.yml/badge.svg)
