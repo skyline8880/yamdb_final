@@ -20,7 +20,7 @@ ___
 
 ## Установка:
 1. Клонируйте репозиторий
-```git@github.com:skyline8880/infra_sp2.git```
+```https://github.com/skyline8880/yamdb_final.git```
 2. Шаблон для наполнения переменных окружения
 - DB_ENGINE=django.db.backends.postgresql 
 - DB_NAME=<имя базы данных>
